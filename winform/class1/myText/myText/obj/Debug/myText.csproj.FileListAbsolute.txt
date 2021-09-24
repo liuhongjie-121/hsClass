@@ -1,0 +1,13 @@
+D:\workstation\21jk-b2\ycf\class1\myText\myText\bin\Debug\myText.exe.config
+D:\workstation\21jk-b2\ycf\class1\myText\myText\obj\Debug\myText.csprojResolveAssemblyReference.cache
+D:\workstation\21jk-b2\ycf\class1\myText\myText\bin\Debug\myText.exe
+D:\workstation\21jk-b2\ycf\class1\myText\myText\bin\Debug\myText.pdb
+D:\workstation\21jk-b2\ycf\class1\myText\myText\obj\Debug\myText.exe
+D:\workstation\21jk-b2\ycf\class1\myText\myText\obj\Debug\myText.pdb
+D:\workstation\hsClass\winform\class1\myText\myText\bin\Debug\myText.exe.config
+D:\workstation\hsClass\winform\class1\myText\myText\bin\Debug\myText.exe
+D:\workstation\hsClass\winform\class1\myText\myText\bin\Debug\myText.pdb
+D:\workstation\hsClass\winform\class1\myText\myText\obj\Debug\myText.csproj.AssemblyReference.cache
+D:\workstation\hsClass\winform\class1\myText\myText\obj\Debug\myText.csproj.CoreCompileInputs.cache
+D:\workstation\hsClass\winform\class1\myText\myText\obj\Debug\myText.exe
+D:\workstation\hsClass\winform\class1\myText\myText\obj\Debug\myText.pdb
