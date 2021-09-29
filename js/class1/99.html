@@ -1,0 +1,24 @@
+<style>
+  table {
+    border: 1px solid #999;
+}
+  table td {
+    border: 1px solid #999;
+}
+</style>
+<script>
+  chengfa()
+  function chengfa(){
+    let lastI = 10
+    let str = "<table>"
+    for (let i = 1; i<lastI; i++) {
+      str +="<tr>"
+      for (let j = 1; j<=i; j++) {
+        str += "<td>"+j+"x"+i+"="+i*j+"</td>"
+      }
+      str +="</tr>"
+	  }
+    str += "</table>"
+	  document.write(str);
+  }
+</script>
