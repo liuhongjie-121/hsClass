@@ -1,0 +1,7 @@
+D:\workstation\hsClass\winform\class3\multiplicationTtable\bin\Debug\multiplicationTtable.exe.config
+D:\workstation\hsClass\winform\class3\multiplicationTtable\bin\Debug\multiplicationTtable.exe
+D:\workstation\hsClass\winform\class3\multiplicationTtable\bin\Debug\multiplicationTtable.pdb
+D:\workstation\hsClass\winform\class3\multiplicationTtable\obj\Debug\Table1.csproj.AssemblyReference.cache
+D:\workstation\hsClass\winform\class3\multiplicationTtable\obj\Debug\Table1.csproj.CoreCompileInputs.cache
+D:\workstation\hsClass\winform\class3\multiplicationTtable\obj\Debug\multiplicationTtable.exe
+D:\workstation\hsClass\winform\class3\multiplicationTtable\obj\Debug\multiplicationTtable.pdb

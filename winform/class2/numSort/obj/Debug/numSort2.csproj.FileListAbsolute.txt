@@ -1,0 +1,7 @@
+D:\workstation\hsClass\winform\class2\numSort2\bin\Debug\numSort2.exe.config
+D:\workstation\hsClass\winform\class2\numSort2\bin\Debug\numSort2.exe
+D:\workstation\hsClass\winform\class2\numSort2\bin\Debug\numSort2.pdb
+D:\workstation\hsClass\winform\class2\numSort2\obj\Debug\numSort2.csproj.AssemblyReference.cache
+D:\workstation\hsClass\winform\class2\numSort2\obj\Debug\numSort2.csproj.CoreCompileInputs.cache
+D:\workstation\hsClass\winform\class2\numSort2\obj\Debug\numSort2.exe
+D:\workstation\hsClass\winform\class2\numSort2\obj\Debug\numSort2.pdb
