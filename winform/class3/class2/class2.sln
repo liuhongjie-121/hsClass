@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class2", "class2\class2.csproj", "{8C15A46A-1696-4BB5-8D20-94EA139EC678}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class2_1", "class2\class2_1.csproj", "{8C15A46A-1696-4BB5-8D20-94EA139EC678}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class2_2", "class2_2\class2_2.csproj", "{9FE5D5F1-8734-4055-8FAB-5C48DA32E2B9}"
 EndProject
@@ -36,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9943A5D-D980-4B25-9F43-832BAF9DCE76}
 	EndGlobalSection
 EndGlobal

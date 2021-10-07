@@ -3,3 +3,10 @@ D:\workstation\21b2\ycf\class2\class2_4\bin\Debug\class2_4.exe
 D:\workstation\21b2\ycf\class2\class2_4\bin\Debug\class2_4.pdb
 D:\workstation\21b2\ycf\class2\class2_4\obj\Debug\class2_4.exe
 D:\workstation\21b2\ycf\class2\class2_4\obj\Debug\class2_4.pdb
+D:\workstation\hsClass\winform\class3\class2\class2_4\bin\Debug\class2_4.exe.config
+D:\workstation\hsClass\winform\class3\class2\class2_4\bin\Debug\class2_4.exe
+D:\workstation\hsClass\winform\class3\class2\class2_4\bin\Debug\class2_4.pdb
+D:\workstation\hsClass\winform\class3\class2\class2_4\obj\Debug\class2_4.csproj.AssemblyReference.cache
+D:\workstation\hsClass\winform\class3\class2\class2_4\obj\Debug\class2_4.csproj.CoreCompileInputs.cache
+D:\workstation\hsClass\winform\class3\class2\class2_4\obj\Debug\class2_4.exe
+D:\workstation\hsClass\winform\class3\class2\class2_4\obj\Debug\class2_4.pdb
