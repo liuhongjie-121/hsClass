@@ -1,0 +1,6 @@
+D:\workstation\21b2\ycf\homeWork2\homeWork2\bin\Debug\homeWork2.exe.config
+D:\workstation\21b2\ycf\homeWork2\homeWork2\bin\Debug\homeWork2.exe
+D:\workstation\21b2\ycf\homeWork2\homeWork2\bin\Debug\homeWork2.pdb
+D:\workstation\21b2\ycf\homeWork2\homeWork2\obj\Debug\homeWork2.csprojResolveAssemblyReference.cache
+D:\workstation\21b2\ycf\homeWork2\homeWork2\obj\Debug\homeWork2.exe
+D:\workstation\21b2\ycf\homeWork2\homeWork2\obj\Debug\homeWork2.pdb

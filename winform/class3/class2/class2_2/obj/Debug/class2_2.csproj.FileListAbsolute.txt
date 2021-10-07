@@ -1,0 +1,5 @@
+D:\workstation\21b2\ycf\class2\class2_2\bin\Debug\class2_2.exe.config
+D:\workstation\21b2\ycf\class2\class2_2\bin\Debug\class2_2.exe
+D:\workstation\21b2\ycf\class2\class2_2\bin\Debug\class2_2.pdb
+D:\workstation\21b2\ycf\class2\class2_2\obj\Debug\class2_2.exe
+D:\workstation\21b2\ycf\class2\class2_2\obj\Debug\class2_2.pdb
