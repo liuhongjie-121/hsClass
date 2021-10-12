@@ -29,8 +29,6 @@
 
 2021年9月27日 周一
 
-<br/>
-
 #### 实验内容
 
 1. 使用控制台进行输入三个整数，输出倒数排序（使用2种方法）
@@ -40,8 +38,6 @@
 ### 第二次上机课
 
 2021年10月7日 周四
-
-<br/>
 
 #### 实验目的
 
@@ -70,8 +66,6 @@
 
 2021年10月7日 周四
 
-[https://github.com/ycfeng666/hsClass/tree/main/winform/class4/homeWork2](https://github.com/ycfeng666/hsClass/tree/main/winform/class4/homeWork2)
-
 #### 实验内容
 
 1. 打印九九乘法表。
@@ -80,3 +74,19 @@
 2. 求以下数列前20项之和。1/2+2/3+3/5+5/8+8/13+…… 
    
    **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class4/homeWork2/homeWork2_1)**
+
+## JS
+
+1. 99乘法表
+   
+   **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class1/99.html)**
+2. 待定
+3. 待定
+4. 待定
+5. 当前时间与未来时间差
+   
+   **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class5/time.html)**
+6. 待定
+7. 待定
+8. 待定
+9. 衬衫的价格是？？
