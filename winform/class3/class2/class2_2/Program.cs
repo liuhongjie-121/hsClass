@@ -12,7 +12,7 @@ namespace class2_2
         {
             bool isQuit = false;
             // 验证密码
-            string strPassWord = "";
+            string strPassWord;
             while (!isQuit) {
                 Console.Write("请输入密码：");
                 strPassWord = Console.ReadLine();

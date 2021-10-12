@@ -12,8 +12,8 @@ namespace class_3
         {
             // 登录
             bool isQuit = false;
-            string strUser = "";
-            string strPassWord = "";
+            string strUser ;
+            string strPassWord ;
             while (!isQuit) {
                 Console.Write("请输入用户名：");
                 strUser = Console.ReadLine();                
