@@ -1,0 +1,21 @@
+<script src="https://lib.baomitu.com/vue/3.0.2/vue.global.js"></script>
+
+<div id="app"><span>{{ state.today + state.date }}</span></div>
+
+<script>
+    const App = {
+        // 渲染
+        setup(){
+            let time = new Date()
+            const state = Vue.reactive({
+                today:"现在是:",
+                date: time.getFullYear()+"年"+ time.getMonth()+"月"
+            })
+            return {
+                state
+            }
+        }
+    }   
+    const app = Vue.createApp(App)
+    app.use().mount("#app")
+</script>
