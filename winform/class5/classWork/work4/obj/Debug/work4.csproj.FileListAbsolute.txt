@@ -1,0 +1,12 @@
+D:\workstation\21jk-b2\ycf\class3\classWork\work4\bin\Debug\work4.exe.config
+D:\workstation\21jk-b2\ycf\class3\classWork\work4\bin\Debug\work4.exe
+D:\workstation\21jk-b2\ycf\class3\classWork\work4\bin\Debug\work4.pdb
+D:\workstation\21jk-b2\ycf\class3\classWork\work4\obj\Debug\work4.exe
+D:\workstation\21jk-b2\ycf\class3\classWork\work4\obj\Debug\work4.pdb
+D:\workstation\hsClass\winform\新建文件夹\classWork\work4\bin\Debug\work4.exe.config
+D:\workstation\hsClass\winform\新建文件夹\classWork\work4\bin\Debug\work4.exe
+D:\workstation\hsClass\winform\新建文件夹\classWork\work4\bin\Debug\work4.pdb
+D:\workstation\hsClass\winform\新建文件夹\classWork\work4\obj\Debug\work4.csproj.AssemblyReference.cache
+D:\workstation\hsClass\winform\新建文件夹\classWork\work4\obj\Debug\work4.csproj.CoreCompileInputs.cache
+D:\workstation\hsClass\winform\新建文件夹\classWork\work4\obj\Debug\work4.exe
+D:\workstation\hsClass\winform\新建文件夹\classWork\work4\obj\Debug\work4.pdb

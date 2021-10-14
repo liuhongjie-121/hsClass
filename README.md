@@ -75,6 +75,40 @@
    
    **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class4/homeWork2/homeWork2_1)**
 
+<br/>
+
+### 第三次上机课
+
+2021年10月14日 周四
+
+#### 实验目的
+
+1. 熟悉开发环境，学会编写控制台程序。
+2. 熟练掌握C#的数组定义、数组元素的引用方法。  
+
+#### 实验重点
+
+1. C#数组的定义，数组元素的引用。
+
+#### 实验难点
+
+1. C#数组与System.Array类。
+
+#### 实验内容
+
+1. 定义一个3×3矩阵，赋从1开始的奇数，分别求两条对角线之和。
+   
+      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/winform/class5/classWork/work1)**
+2. 已知一个一维数组（按升序排列），插入一个数后排序规则不变。
+   
+      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/winform/class5/classWork/work2)**
+3. 定义一个3×3矩阵，赋100以内的随机值，求最大值及行列号。
+   
+      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/winform/class5/classWork/work3)**
+4. 选择法排序。
+   
+      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/winform/class5/classWork/work4)**
+
 ## JS
 
 1. 页面输出时间（静态）
