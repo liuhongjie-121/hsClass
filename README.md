@@ -98,16 +98,16 @@
 
 1. 定义一个3×3矩阵，赋从1开始的奇数，分别求两条对角线之和。
    
-      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/winform/class5/classWork/work1)**
+      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main//winform/class5/classWork/work1)**
 2. 已知一个一维数组（按升序排列），插入一个数后排序规则不变。
    
-      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/winform/class5/classWork/work2)**
+      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main//winform/class5/classWork/work2)**
 3. 定义一个3×3矩阵，赋100以内的随机值，求最大值及行列号。
    
-      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/winform/class5/classWork/work3)**
+      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main//winform/class5/classWork/work3)**
 4. 选择法排序。
    
-      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/winform/class5/classWork/work4)**
+      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main//winform/class5/classWork/work4)**
 
 ## JS
 
