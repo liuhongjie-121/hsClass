@@ -1,0 +1,7 @@
+D:\workstation\hsClass\winform\class1\myText\myText\bin\Release\myText.exe.config
+D:\workstation\hsClass\winform\class1\myText\myText\bin\Release\myText.exe
+D:\workstation\hsClass\winform\class1\myText\myText\bin\Release\myText.pdb
+D:\workstation\hsClass\winform\class1\myText\myText\obj\Release\myText.csproj.AssemblyReference.cache
+D:\workstation\hsClass\winform\class1\myText\myText\obj\Release\myText.csproj.CoreCompileInputs.cache
+D:\workstation\hsClass\winform\class1\myText\myText\obj\Release\myText.exe
+D:\workstation\hsClass\winform\class1\myText\myText\obj\Release\myText.pdb
