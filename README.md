@@ -120,7 +120,7 @@
    **[点击跳转至代码：React.JS版](https://github.com/ycfeng666/hsClass/blob/main/js/class1/react.html)**   
 2. 99乘法表
    
-   **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class1/99.html)**
+   **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class2/99.html)**
 3. 待定
 4. 当前时间与未来时间差
    
