@@ -13,27 +13,35 @@
 <span class="fontColor2" id="time">dd 天 HH 小时 MM 分钟 ss秒</span>
 
 <script charset="UTF-8">
-let startTime,nowTime;
-let endTime = new Date('2021-11-11') / 1000 // 获取11月11日0时0分0秒的时间戳
-// 延时器
-let Timer = setInterval(function(){
-	nowTime = new Date().toLocaleString()
-	startTime = new Date() / 1000 // 获取当前时间的时间戳
-	document.querySelector("#now").textContent = nowTime
-	document.querySelector("#time").textContent = GetRemainingTime(startTime, endTime) // 赋值
-},1000)
+  
+let NowDiv = document.querySelector("#now")
+let TimeDiv = document.querySelector("#time")
 
-//计算两个时间之间的时间差 天时分秒
-function GetRemainingTime(startTime, endTime) {
-  let date = endTime - startTime; //时间差的秒数
-  let dayTime = 24 * 3600  // 一天的秒数
-  let hourTime = 3600 // 一小时的秒数
-  let minTime = 60 // 一分钟的秒数
-  let days = Math.floor(date / dayTime); // 相差天数
-  let hours = Math.floor(date % dayTime / hourTime); // 相差小时数
-  let minutes = Math.floor(date % dayTime % hourTime / minTime); // 相差分钟数
-  let seconds = Math.round(date % dayTime % hourTime % minTime); // 相差秒数
-  return   days + "天 " + hours + "小时 " + minutes + " 分钟" + seconds + " 秒"
-  // return days + "天 " + hours + "小时 "
+class RemainTime {
+  static dayTime = 24 * 3600
+  static hourTime = 3600
+  static minTime = 60
+
+  constructor(startTime,endTime){
+    this.startTime = startTime
+    this.endTime = endTime
+  }
+  Execute(){    
+    let Timer = setInterval(()=>{
+      this.startTime = this.startTime === new Date() / 1000 ? this.startTime : new Date() / 1000
+      let date = this.endTime - this.startTime
+      let days = Math.floor(date / RemainTime.dayTime)
+      let hours = Math.floor(date % RemainTime.dayTime / RemainTime.hourTime)
+      let minutes = Math.floor(date % RemainTime.dayTime % RemainTime.hourTime / RemainTime.minTime)
+      let seconds = Math.round(date % RemainTime.dayTime % RemainTime.hourTime % RemainTime.minTime)
+
+      NowDiv.textContent = new Date().toLocaleString()
+      TimeDiv.textContent = days + "天 " + hours + "小时 " + minutes + " 分钟" + seconds + " 秒"
+    },1000)
+  }
 }
+let start = new Date() / 1000
+let end = new Date('2021-11-11') / 1000
+const RT = new RemainTime(start,end)
+RT.Execute()
 </script>
