@@ -1,0 +1,76 @@
+<div id="app">
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p>
+        <button id="btn_p3">求圆</button>
+        <input type="text" id="p3_1" placeholder="圆周长">
+        <input type="text" id="p3_2" placeholder="圆面积">
+    </p>
+    <p id="p4"></p>
+</div>
+
+<script>
+    let p1 = document.querySelector("#p1"),
+    p2 = document.querySelector("#p2"),
+    btn1 = document.querySelector("#btn_p3"),
+    p3_1 = document.querySelector("#p3_1"),
+    p3_2 = document.querySelector("#p3_2"),
+    p4 = document.querySelector("#p4")
+    class class2{
+        // 使用for循环实现九九乘法表
+        play1(){
+            let noTableStr = ""
+            for (let i = 1; i < 10; i++) {
+                for (let j = 1; j <= i; j++) {
+                    noTableStr += i + "*" + j + "=" + i*j + " "         
+                }
+                noTableStr += "<br>"
+            }
+            p1.innerHTML = noTableStr
+        }
+        play2(){
+            // 求1-100之间能被5整除不能被7整除的数
+            let str = []
+            for (let i = 100; i >= 0; i--) {
+                if(i%5 === 0 && i%7!==0){
+                    str.push(i)
+                }                
+            }
+            str = str.reverse()
+            p2.textContent = "1-100能被5整除且不能被7整除的数:"+str
+        }
+        // 使用prompt()方法从键盘输入半径，求圆的周长和面积。
+        play3(){
+            let num = prompt("请输入半径");
+            p3_1.value = (Math.PI * num * 2).toFixed(2)
+            p3_2.value= (Math.PI * Math.pow(num,2)).toFixed(2)
+        }
+    }
+    // 继承重载
+    class sonOfClass2 extends class2{
+        // 动态添加表格显示九九乘法表。
+        play1(){
+            let str = "<table border='1'>"
+            for (let i = 1; i < 10; i++) {
+                str += "<tr>"
+                for (let j = 1; j <= i; j++) {
+                    str += "<td>" + i + "*" + j + "=" + i*j + "</td>"          
+                }
+                str += "</tr>"
+            }
+            str += "</table>"
+            p4.innerHTML = str
+        }
+    }
+    
+    const c2 = new class2()
+    const c2_2 = new sonOfClass2()
+    c2.play1()
+    c2.play2()
+
+    btn1.addEventListener('click',()=>{
+        c2.play3()
+    })
+    c2_2.play1()
+
+</script>

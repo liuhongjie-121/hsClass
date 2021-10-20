@@ -2,7 +2,7 @@
 
 ## winForm
 
-### 第一次上机课
+### 第一次实验课
 
 2021年9月22日 周三
 
@@ -25,7 +25,7 @@
 2. 在屏幕上输出：我的手机品牌是华为，型号是P30，颜色是白色。
 3. 定义姓名、年龄、工资，要求从键盘输入，然后输出，注意：Console.Write和Console.WriteLine的区别。学会Console.Readline()和Console.Read()的使用
 
-### 第一次课后作业
+### 第一次理论课作业
 
 2021年9月27日 周一
 
@@ -35,7 +35,7 @@
    
    **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class2/numSort)**
 
-### 第二次上机课
+### 第二次实验课
 
 2021年10月7日 周四
 
@@ -62,7 +62,7 @@
    
    **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class3/class2/class2_4)**
 
-### 第二次课后作业
+### 第二次理论课作业
 
 2021年10月7日 周四
 
@@ -77,14 +77,14 @@
 
 <br/>
 
-### 第三次上机课
+### 第三次实验课
 
 2021年10月14日 周四
 
 #### 实验目的
 
 1. 熟悉开发环境，学会编写控制台程序。
-2. 熟练掌握C#的数组定义、数组元素的引用方法。  
+2. 熟练掌握C#的数组定义、数组元素的引用方法。
 
 #### 实验重点
 
@@ -109,22 +109,68 @@
    
       **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main//winform/class5/classWork/work4)**
 
+<br/>
+
+### 第三次理论课作业
+
+2021年10月18日 周一
+
+#### 实验内容
+
+见课本P114页第六大题的第1小题
+
+**[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class6/homeWork/work1)**
+
 ## JS
 
-1. 页面输出时间（静态）
+### 第一次理论课作业
+
+2021年10月13日 周三
+
+#### 实验内容
+
+1. 在页面输出静态时间
    
    **[点击跳转至代码：原生JS版](https://github.com/ycfeng666/hsClass/blob/main/js/class1/base.html)**
    
    **[点击跳转至代码：Vue.JS版](https://github.com/ycfeng666/hsClass/blob/main/js/class1/vue.html)**
    
-   **[点击跳转至代码：React.JS版](https://github.com/ycfeng666/hsClass/blob/main/js/class1/react.html)**   
-2. 99乘法表
-   
-   **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class2/99.html)**
-3. 待定
-4. 当前时间与未来时间差
+   **[点击跳转至代码：React.JS版](https://github.com/ycfeng666/hsClass/blob/main/js/class1/react.html)**
+
+### 第一次实验课
+
+2021年10月20日 周三
+
+  **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class3/test.html)**
+
+#### 实验目的
+
+1. 掌握javaScript编写环境使用
+2. 掌握javaScript语法格式
+3. 实现编写简单javaScript语句
+
+#### 实验重难点
+
+1. 掌握javaScript语法格式
+2. 实现编写简单javaScript语句
+
+#### 实验内容
+
+1. 使用for循环实现九九乘法表
+2. 求1-100之间能被5整除不能被7整除的数
+3. 使用prompt()方法从键盘输入半径，求圆的周长和面积。
+4. 动态添加表格显示九九乘法表。
+
+#### 未整理
+
+1. 当前时间与未来时间差
    
    **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class5/time.html)**
+2. 移动小方块
+   
+    **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class7/block.html)**
+3. 待定
+4. 待定
 5. 待定
 6. 待定
 7. 待定

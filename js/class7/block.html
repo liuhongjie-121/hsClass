@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>移动小方块</title>
+        <style>
+            #rec {
+                position:absolute;
+                left: 100px;
+                top: 100px; 
+                width: 50px;
+                height: 50px;
+                background: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="rec"></div>
+    </body>
+    <script>
+    const rec = document.getElementById("rec")
+    let down = false;
+	// 存储移动的距离
+    let dX,dY = 0;
+	// 监听整个页面绑定鼠标移动事件
+    document.onmousemove =()=>{
+		// 判断当前的开关
+        if (down) {
+			// 修改方块此时在页面的绝对位置
+			// 修改距离顶部的位置
+            rec.style.top = event.clientY - dX + 'px';
+			// 修改距离左侧的位置
+            rec.style.left = event.clientX - dX + 'px';
+        }
+    }
+	// 监听鼠标在块中按下时的方法
+    rec.onmousedown = ()=>{
+		// 坐标轴0点在方块的左上角
+        // 鼠标按在的位置距离页面最左侧的长度-方块0点距离页面最左侧的长度
+        dX = event.clientX - rec.offsetLeft
+        // 鼠标按在的点距离页面最顶部的高度-获取方块0点距离页面最顶部的高度
+        dY = event.clientY - rec.offsetTop
+		// 如果此时开关没有开启，就开启       
+        if (!down) down  = true;
+    }
+	// 监听鼠标抬起的事件
+    rec.onmouseup = ()=>{
+		// 如果此时开关开启，就关闭
+        if (down) down = false;
+    }
+    </script>
+</html>

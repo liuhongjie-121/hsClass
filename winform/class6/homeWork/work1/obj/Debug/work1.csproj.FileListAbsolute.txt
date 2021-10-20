@@ -1,0 +1,7 @@
+D:\workstation\hsClass\winform\class6\homeWork\work1\bin\Debug\work1.exe.config
+D:\workstation\hsClass\winform\class6\homeWork\work1\bin\Debug\work1.exe
+D:\workstation\hsClass\winform\class6\homeWork\work1\bin\Debug\work1.pdb
+D:\workstation\hsClass\winform\class6\homeWork\work1\obj\Debug\work1.csproj.AssemblyReference.cache
+D:\workstation\hsClass\winform\class6\homeWork\work1\obj\Debug\work1.csproj.CoreCompileInputs.cache
+D:\workstation\hsClass\winform\class6\homeWork\work1\obj\Debug\work1.exe
+D:\workstation\hsClass\winform\class6\homeWork\work1\obj\Debug\work1.pdb
