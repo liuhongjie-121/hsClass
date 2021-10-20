@@ -22,8 +22,7 @@ namespace work1
                     }
                     if (i + j == 2) {
                         sum2 += arr[i, j];
-                    }
-                    
+                    }                    
                 }
             }
             Console.WriteLine(String.Format("对角线和为:{0}", sum1+sum2));

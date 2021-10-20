@@ -11,34 +11,19 @@ namespace work2
         static void Main(string[] args)
         {
             // 已知一个一维数组（按升序排列），插入一个数后排序规则不变
-            List<int> arr =new List<int>{ 1, 10, 15, 20, 25};
-            Console.Write("原数组：");
-            for (int o = 0; o < arr.Count; o++)
+            Random r = new Random();
+            List<int> arr =new List<int>();
+            for (int i = 0; i < 5; i++)
             {
-                Console.Write(arr[o] + "\0");
+                arr.Add(r.Next(0, 100));
             }
-            Console.WriteLine();
-            Console.Write("请输入值：");
+            arr.Sort();
+            Console.WriteLine("原数组：" + string.Join(",", arr));
+            Console.Write("请输入一个数字：");
             int num = int.Parse(Console.ReadLine());
             arr.Add(num);
-
-            for (int i = 0; i < arr.Count-1; i++)
-            {
-                for (int j = 0; j < arr.Count - 1 - i; j++)
-                {
-                    if(arr[j]>arr[j+1]){
-                        int temp = arr[j + 1];
-                        arr[j + 1] = arr[j];
-                        arr[j] = temp;
-                    }
-                   
-                }
-            }
-            Console.Write("新数组：");
-            for (int s = 0; s < arr.Count; s++)
-            {
-                Console.Write(arr[s] + "\0");
-            }
+            arr.Sort();
+            Console.WriteLine("新数组："+ string.Join(",", arr));
             Console.ReadKey();
         }
     }

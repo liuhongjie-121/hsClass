@@ -10,3 +10,10 @@ D:\workstation\hsClass\winform\新建文件夹\classWork\work2\obj\Debug\work2.c
 D:\workstation\hsClass\winform\新建文件夹\classWork\work2\obj\Debug\work2.csproj.CoreCompileInputs.cache
 D:\workstation\hsClass\winform\新建文件夹\classWork\work2\obj\Debug\work2.exe
 D:\workstation\hsClass\winform\新建文件夹\classWork\work2\obj\Debug\work2.pdb
+D:\workstation\hsClass\winform\class5\classWork\work2\bin\Debug\work2.exe.config
+D:\workstation\hsClass\winform\class5\classWork\work2\bin\Debug\work2.exe
+D:\workstation\hsClass\winform\class5\classWork\work2\bin\Debug\work2.pdb
+D:\workstation\hsClass\winform\class5\classWork\work2\obj\Debug\work2.csproj.AssemblyReference.cache
+D:\workstation\hsClass\winform\class5\classWork\work2\obj\Debug\work2.csproj.CoreCompileInputs.cache
+D:\workstation\hsClass\winform\class5\classWork\work2\obj\Debug\work2.exe
+D:\workstation\hsClass\winform\class5\classWork\work2\obj\Debug\work2.pdb
