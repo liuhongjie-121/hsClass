@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 欢迎来到YCF的主页
 
 You can use the [editor on GitHub](https://github.com/ycfeng666/hsClass/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
