@@ -1,0 +1,5 @@
+D:\workstation\21jk-b2\ycf\class4\classWork\work4\bin\Debug\work4.exe.config
+D:\workstation\21jk-b2\ycf\class4\classWork\work4\bin\Debug\work4.exe
+D:\workstation\21jk-b2\ycf\class4\classWork\work4\bin\Debug\work4.pdb
+D:\workstation\21jk-b2\ycf\class4\classWork\work4\obj\Debug\work4.exe
+D:\workstation\21jk-b2\ycf\class4\classWork\work4\obj\Debug\work4.pdb

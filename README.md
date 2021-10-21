@@ -121,6 +121,35 @@
 
 **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class6/homeWork/work1)**
 
+<br/>
+
+### 第四次实验课
+
+2021年10月21日
+
+#### 实验目的
+
+1. 加深理解面向对象编程的概念，如类、对象、实例化等
+2. 熟练掌握类的声明格式
+
+#### 实验内容
+
+1. 类和对象的基本使用：
+   
+   创建类MyArith,实现并测试基本的四则整数运算。类MyArith包含实例方法add(求两数之和)，sub(求两数之差)，mul（求两数之和积)，商div(求两数之商)。
+   
+   **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class7/classWork/work1)**
+2. 类与静态成员的方法：
+   
+   创建类MyMath,计算圆的周长、面积和球的体积的程序。类MyMath,包含常量PI以及静态方法Perimeter(计算圆的周长)、Area(计算圆的面积)、Volum(计算球的体积)
+   
+   **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class7/classWork/work2)**
+3. 课本P86课后习题第6题第1问
+   
+   **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class7/classWork/work3)**
+   
+   <br/>
+
 ## JS
 
 ### 第一次理论课作业
@@ -161,7 +190,7 @@
 3. 使用prompt()方法从键盘输入半径，求圆的周长和面积。
 4. 动态添加表格显示九九乘法表。
 
-#### 未整理
+### 未整理
 
 1. 当前时间与未来时间差
    
