@@ -22,8 +22,8 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="/">Home</a></li>
-							<li><a href="https://illyasviel.info">MoeBlog</a>
-					    <li><a href="http://cloud.illyasviel.info">MoeCloud</a></li>							
+							<li><a :href="state.url.index" title="课程记录">HsClass</a>
+					    <li><a :href="state.url.cloud">MoeCloud</a></li>		
 						</ul>
 					</nav>
 				</header>
@@ -34,13 +34,13 @@
 						<h2>{{ state.Moe }}</h2>
 						{{ state.step }}</p>
 					</header>
-					<span class="image"><img src="images/head_portrait.jpg" alt="萌站在线" /></span>
+					<span class="image"><img src="images/head_portrait.jpg"/></span>
 				</div>
 				<a href="#one" class="goto-next scrolly">Next</a>
 			</section>
 			<!-- One -->
 			<section id="one" class="spotlight style1 bottom">
-				<span class="image fit main"><img src="images/pic001.jpg" alt="关于黑夜" /></span>
+				<span class="image fit main"><img src="images/pic001.jpg"/></span>
 				<div class="content">
 					<div class="container">
 						<div class="row">
@@ -71,12 +71,12 @@
 				<div class="content">
 					<header>
 						<h2>{{ state.Moe }}</h2>
-						<p>Loading Now</p>！
+						<p>{{ state.now }}</p>！
 					</header>
 					<p>
 						{{ state.update }}
 					<ul class="actions">
-						<li><a href="http://1-yi.cn/" class="button">Go To</a></li>
+						<li><a :href="state.url.index" class="button">Go To</a></li>
 					</ul>
 				</div>
 				<a href="#three" class="goto-next scrolly">Next</a>
@@ -127,12 +127,12 @@
 			<section id="five" class="wrapper style2 special fade">
 				<div class="container">
 					<header>
-						<h2>联系方式</h2>
-						<p>这里是我的联系方式呢.</p>
+						<h2>{{ state.info }}</h2>
+						<p>{{ state.email }}</p>
 					</header>
 				</div>
 				<p>{{ state.email }}</p>
-				<p>{{ state.qq }}</p>
+				<p>{{ state.myInfo }}</p>
 			</section>
 			<!-- Footer -->
 			<footer id="footer">
@@ -140,7 +140,7 @@
 					<!--<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>-->				
 				</ul>
 				<ul class="copyright">
-					<li>&copy; Night. All rights reserved.</li><li>Design: <a href="http://www.1-yi.cn">Night</a></li>				
+					<li>&copy; Night. All rights reserved.</li><li>Design: <a :href="state.url.index">Night</a></li>				
 				</ul>
 			</footer>
 		</div>
@@ -163,8 +163,17 @@
 								step:"A journey of a thousand miles begins with a single step",
 								update:"Sometimes forget to update",
 								null:"Not yet available",
+								info:"contact information",
+								myInfo:"This is my information",
+								now:"Loading Now",
 								email:"My Email：ycf@illyasviel.info",
 								qq:"My QQ：1073225787",
+								url:{
+									index:"https://github.com/ycfeng666/hsClass",
+									blog:"https://illyasviel.info",
+									cloud:"https://cloud.illyasviel.info",
+									img:"https://cloud.illyasviel.info"
+								}
             })
             return {
                 state
