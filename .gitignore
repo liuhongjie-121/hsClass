@@ -1,0 +1,10 @@
+
+js/.vscode/
+*.exe
+*.config
+*.pdb
+*.sln
+*.csproj
+*.cache
+*.manifest
+*.txt
