@@ -205,7 +205,7 @@
 
 2021年10月20日 周三
 
-  **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class3/test.html)**
+  **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class3/and.html)**
 
 #### 实验目的
 
@@ -222,8 +222,22 @@
 
 1. 使用for循环实现九九乘法表
 2. 求1-100之间能被5整除不能被7整除的数
-3. 使用prompt()方法从键盘输入半径，求圆的周长和面积。
-4. 动态添加表格显示九九乘法表。
+3. 使用prompt()方法从键盘输入半径，求圆的周长和面积
+4. 动态添加表格显示九九乘法表
+
+<br/>
+
+### 第二次实验
+
+2021年10月29日
+
+**[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class10/toupiao.html)**
+
+#### 实验内容
+
+点击投票
+
+<br/>
 
 ### 未整理
 
@@ -233,9 +247,19 @@
 2. 移动小方块
    
     **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class7/block.html)**
-3. 待定
-4. 待定
-5. 待定
+3. 正则
+   
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class8/reg.html)**
+4. 点击与失焦
+   
+      **[点击跳转至代码-点击](https://github.com/ycfeng666/hsClass/blob/main/js/class6/click.html)**
+   
+      **[点击跳转至代码-失焦](https://github.com/ycfeng666/hsClass/blob/main/js/class6/blur.html)**
+5. 双色球摇奖
+   
+      **[点击跳转至代码-未去重版](https://github.com/ycfeng666/hsClass/blob/main/js/class9/lucky.html)**
+   
+      **[点击跳转至代码-去重版](https://github.com/ycfeng666/hsClass/blob/main/js/class9/luckyNew.html)**
 6. 待定
 7. 待定
 8. 广告位招租

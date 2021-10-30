@@ -1,0 +1,91 @@
+<title>双色球</title>
+<style>
+	div .tone{
+		width:100px;
+		height:100px;
+		border-radius:60px;
+		background-color:red;
+		display:inline-block;
+		margin-top:60px;
+		margin-left:60px;
+		color:white;
+		font-size:60px;
+		text-align:center;
+		line-height:100px;
+	}
+	div :last-child{
+		background-color:blue;
+	}
+</style>
+
+<div class="box">
+	<button type="button" id="ks">开始</button>
+	<br>
+	<span id = "tone0" class = "tone">0</span>
+	<span id = "tone1" class = "tone">0</span>
+	<span id = "tone2" class = "tone">0</span>
+	<span id = "tone3" class = "tone">0</span>
+	<span id = "tone4" class = "tone">0</span>
+	<span id = "tone5" class = "tone">0</span>
+	<span id = "tone6" class = "tone">0</span>
+</div>
+
+<script>
+	let tone = document.getElementsByTagName("span");
+	let ks = document.getElementById("ks");
+	let idx = 0;
+	let Nums = [];
+
+	ks.addEventListener('click',()=>{
+		ks.innerText = "正在摇奖ing";
+		idx = 0;
+		sq();
+	});
+
+	const sq = ()=>{
+		ks.innerText = "正在摇奖ing";
+
+		let timer = setInterval(()=>{
+			for (let i = idx; i < tone.length; i++) {
+				let a;
+				if(i < tone.length-1)a = Math.floor(Math.random() * 32 + 1);
+				else a = Math.floor(Math.random() * 16 + 1);
+				tone[i].innerText = a;
+			}						
+		}, 40);
+		let pro = new Promise((resolve,reject)=>{
+			resolve(getNums())
+		}).then(()=>{
+			if(idx < tone.length){
+				setTimeout(()=>{
+					clearInterval(timer);
+					tone[idx].innerText = Nums[idx];
+					idx++;
+					sq();
+				},800)
+			}else{
+				ks.innerText = "开始"
+			}
+		})												
+	};
+
+	const getNums = ()=>{
+		if(idx === 0){
+			for (let i = 0; i < tone.length-1; i++) {
+				Nums[i] = Math.floor(Math.random() * 32 + 1);
+				if(i>0){
+					for(let j = 0; j < i; j++){
+						if(Nums[j] == Nums[i]){
+							i--;break;
+						}
+					}
+				}
+			}
+			
+			Nums.sort((a,b)=>{ return a-b });
+			Nums.push(Math.floor(Math.random() * 16 + 1));
+		}	
+	};
+
+	sq();
+</script>

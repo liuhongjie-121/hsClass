@@ -1,0 +1,81 @@
+<form>
+  <p id="userName">
+    <span>用户名：</span>
+    <input type="text" onblur="v_UserName()">
+    <span>请输入邮箱</span>
+  </p>
+  <p id="passWord">
+    <span>密码：</span>
+    <input type="password" onblur="v_PassWord()">
+    <span>请输入密码</span>
+  </p>
+  <p id="verifyPassword">
+    <span>二次密码：</span>
+    <input type="password" onblur="v_VerifyPassword()">
+    <span>请输入二次密码</span>
+  </p>
+  <p id="phone">
+    <span>手机号：</span>
+    <input type="text" onblur="v_Phone()">
+    <span>请输入手机号</span>
+  </p>
+  <p id="mail">
+    <span>邮箱：</span>
+    <input type="text" onblur="v_Mail()">
+    <span>请输入邮箱</span>
+  </p>
+</form>
+
+<script>
+  let userNameReg = /^[a-z A-Z]{4,12}$/,
+    passWordReg = /^\w{6,20}$/,
+    phoneReg = /^1\d{10}$/,
+    mailReg = /^(a-zA-Z0-9_-)+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/,
+    userName = document.querySelector("#userName"),
+    passWord = document.querySelector("#passWord"),
+    verifyPassword = document.querySelector("#verifyPassword"),
+    phone = document.querySelector("#phone"),
+    mail = document.querySelector("#mail")
+
+
+  const v_UserName = ()=>{
+    let input = userName.getElementsByTagName("input")[0],
+      sapn = userName.getElementsByTagName("span")[1]
+
+    if(userNameReg.test(input.value)) sapn.textContent = "OK"
+    else sapn.textContent = "验证失败"
+  }
+
+  const v_PassWord = ()=>{
+    let input = passWord.getElementsByTagName("input")[0],
+      sapn = passWord.getElementsByTagName("span")[1]
+
+    if(passWordReg.test(input.value)) sapn.textContent = "OK"
+    else sapn.textContent = "验证失败"
+  }
+
+  const v_VerifyPassword = ()=>{
+    let input1 = passWord.getElementsByTagName("input")[0],
+      input2 = verifyPassword.getElementsByTagName("input")[0]
+      sapn = verifyPassword.getElementsByTagName("span")[1]
+
+    if(input1.value !=="" && input1.value === input2.value) sapn.textContent = "OK"
+    else sapn.textContent = "验证失败"
+  }
+
+  const v_Phone = ()=>{
+    let input = phone.getElementsByTagName("input")[0],
+      sapn = phone.getElementsByTagName("span")[1]
+
+    if(phoneReg.test(input)) span.textContent = "OK"
+    else sapn.textContent = "验证失败"
+  }
+
+  const v_Mail = ()=>{
+    let input = mail.getElementsByTagName("input")[0],
+      sapn = mail.getElementsByTagName("span")[1]
+
+    if(mailReg.test(input.value)) sapn.textContent = "OK"
+    else sapn.textContent = "验证失败"
+  }
+</script>

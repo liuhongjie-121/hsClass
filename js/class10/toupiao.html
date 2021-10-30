@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>投票</title>
+		<style>
+			html{
+				font-size: 16px;
+				text-align: center;
+			}
+			.box{
+				width: 80%;
+				margin: auto;								
+			}
+			li{
+				list-style: none;
+				float: left;
+				width: 20%;
+				border: 1px solid #000;
+				margin: 1.25rem;
+				padding: 0.5rem;
+			}
+			li img{
+				width: 12.5rem;
+				height: 12.5rem;
+			}
+			li button{
+				width: 5rem;
+				height: auto;
+				background-color: red;
+				color: white;
+				font-weight:bold;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<h1>你最喜欢的动物</h1>
+			<ul>
+				<li>
+					<h3>给老虎投票</h3>
+					<img src="hu.jpg">
+					<button>投票(<span>0</span>)</button>
+				</li><!--	  
+				--><li>
+					<h3>给豹豹投票</h3>
+					<img src="bao.jpg">
+					<button>投票(<span>0</span>)</button>
+				</li><!--				  
+				--><li>
+					<h3>给汪汪投票</h3>
+					<img src="gou.jpg">
+					<button>投票(<span>0</span>)</button>
+				</li><!--				  
+				--><li>
+					<h3>给大象投票</h3>
+					<img src="xiang.jpg">
+					<button>投票(<span>0</span>)</button>
+				</li>
+			</ul>
+		</div>
+	</body>
+	<script>
+		let btn = document.getElementsByTagName("button");
+				
+		for (let i = 0; i < btn.length; i++) {
+			btn[i].addEventListener('click',()=>{
+				let span = btn[i].getElementsByTagName("span")[0];
+				// 这里的闭包暂时有点问题
+				// 希望有巨佬Push解决方案		
+				// const count = ()=> {
+				// 	let num = span.innerText;
+				// 	return () =>{
+				// 		num++;
+				// 		return num;
+				// 	}
+				// }
+				// let numCount = count();
+				// span.innerText = numCount();
+
+				let num = parseInt(span.innerText);
+				num++;		
+				span.innerText = num;
+			})
+		};
+
+	</script>
+</html>

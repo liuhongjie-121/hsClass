@@ -1,0 +1,81 @@
+<style>
+	span{
+		width:100px;
+		height:100px;
+		border-radius:60px;
+		background-color:red;
+		display:inline-block;
+		margin-top:60px;
+		margin-left:60px;
+		color:white;
+		font-size:60px;
+		text-align:center;
+		line-height:100px;
+	}
+	#tone6{
+	background-color:blue;
+	}
+</style>
+
+<button type="button" id="ks" onclick="ssq()">开始</button>
+<br>
+<span id = "tone0" class = "tone">00</span>
+<span id = "tone1" class = "tone">00</span>
+<span id = "tone2" class = "tone">00</span>
+<span id = "tone3" class = "tone">00</span>
+<span id = "tone4" class = "tone">00</span>
+<span id = "tone5" class = "tone">00</span>
+<span id = "tone6" class = "tone">00</span>
+
+
+<script>
+	let tone = document.getElementsByTagName("span")
+	let ks = document.getElementById("ks")
+	let timer
+	let timer2
+	let idx = 0
+
+
+	ks.addEventListener('click',()=>{
+		ks.innerText = "正在摇奖ing"
+		idx = 0		
+		sq()		
+	})
+
+	function sq(){	
+		ra()
+		timer2 = setTimeout(()=>{
+			clearInterval(timer)
+			idx++
+			if(idx<7){
+				sq()					
+			}else{
+				sort()
+			}						
+		},800)
+	}
+
+	function ra(){
+		timer = setInterval(()=>{
+			for (let i = idx; i < tone.length; i++) {
+				let a = Math.floor(Math.random() * 32 + 1)
+				tone[i].innerText = a			
+			}						
+		}, 40);
+	}
+
+	function sort(){
+		let reds = []
+		for (let i = 0; i < idx; i++) {
+				reds.push(tone[i].textContent)
+		}
+		
+		// 比值排序
+		reds.sort((a, b)=>{ return a - b });
+		for(let j = 0; j < idx; j++){
+			tone[j].innerText = reds[j]				
+		}
+		ks.innerText = "结束"
+	}
+	sq();
+</script>
