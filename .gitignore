@@ -1,10 +1,17 @@
 
-js/.vscode/
+# 忽略后缀名
 *.exe
-*.config
 *.pdb
 *.sln
 *.csproj
 *.cache
 *.manifest
 *.txt
+*.suo
+
+# 忽略通配符目录
+*.vs*/
+*bin*/
+*obj*/
+*Properties*/
+*.vscode*/
