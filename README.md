@@ -2,7 +2,7 @@
 
 ## winForm
 
-### 第一次实验课
+### 第一次实验
 
 2021年9月22日 周三
 
@@ -25,7 +25,7 @@
 2. 在屏幕上输出：我的手机品牌是华为，型号是P30，颜色是白色。
 3. 定义姓名、年龄、工资，要求从键盘输入，然后输出，注意：Console.Write和Console.WriteLine的区别。学会Console.Readline()和Console.Read()的使用
 
-### 第一次理论课作业
+### 第一次理论作业
 
 2021年9月27日 周一
 
@@ -35,7 +35,7 @@
    
    **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class2/numSort)**
 
-### 第二次实验课
+### 第二次实验
 
 2021年10月7日 周四
 
@@ -62,7 +62,7 @@
    
    **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class3/class2/class2_4)**
 
-### 第二次理论课作业
+### 第二次理论作业
 
 2021年10月7日 周四
 
@@ -77,7 +77,7 @@
 
 <br/>
 
-### 第三次实验课
+### 第三次实验
 
 2021年10月14日 周四
 
@@ -111,7 +111,7 @@
 
 <br/>
 
-### 第三次理论课作业
+### 第三次理论作业
 
 2021年10月18日 周一
 
@@ -123,7 +123,7 @@
 
 <br/>
 
-### 第四次实验课
+### 第四次实验
 
 2021年10月21日
 
@@ -147,12 +147,47 @@
 3. 课本P86课后习题第6题第1问
    
    **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class7/classWork/work3)**
+
+<br/>
+
+### 第五次实验
+
+2021年10月28日
+
+#### 实验目的
+
+1. 掌握单一继承的C#程序的编写
+2. 掌握this关键字及用法
+3. 掌握base关键字及用法
+
+#### 实验重点
+
+1. 掌握继承的概念
+2. 单一继承的C#程序的编写
+3. 虚方法、重写方法及隐藏方法的实现
+
+#### 实验难点
+
+1. 单一继承的C#程序的编写
+2. 虚方法、重写方法及隐藏方法的实现
+
+#### 实验内容
+
+1. 用C#编写一个程序，定义一个类information，该类包含成员：姓名、性别，带2参数的构造函数，一个虚方法，输出“Hello！某某”。第一一个子类stu，该类有一个私有字段：电话，一个带3个参数的构造函数，并用“:base”调用基类构造函数，重写基类的虚方法，输出“你的电话是：XXXXXXX”。在入口函数中，定义一个基类型的数组，分别用基类和派生类进行实例化，遍历该数组的方法。
    
-   <br/>
+      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class8/classWork/work1)**
+2. 定义一个类person,该类包含一个成员：name，一个带参数的构造函数，一个虚方法，用于输出姓名字段。定义一个派生类student，该类有一个成员id,一个带有两个参数的构造函数，重写基类的虚方法，输出学生（姓名）正在学习
+   
+      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class8/classWork/work2)**
+3. 课本P115页编程题
+   
+      **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class8/classWork/work3)**
+
+<br/>
 
 ## JS
 
-### 第一次理论课作业
+### 第一次理论作业
 
 2021年10月13日 周三
 
@@ -166,7 +201,7 @@
    
    **[点击跳转至代码：React.JS版](https://github.com/ycfeng666/hsClass/blob/main/js/class1/react.html)**
 
-### 第一次实验课
+### 第一次实验
 
 2021年10月20日 周三
 
