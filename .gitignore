@@ -8,6 +8,7 @@
 *.manifest
 *.txt
 *.suo
+*.config
 
 # 忽略通配符目录
 *.vs*/
