@@ -71,7 +71,7 @@
 				<div class="content">
 					<header>
 						<h2>{{ state.Moe }}</h2>
-						<p>{{ state.now }}</p>！
+						<p>{{ state.now }}</p>
 					</header>
 					<p>
 						{{ state.update }}
@@ -140,7 +140,7 @@
 					<!--<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>-->				
 				</ul>
 				<ul class="copyright">
-					<li>&copy; Night. All rights reserved.</li><li>Design: <a :href="state.url.index">Night</a></li>				
+					<li>{{ state.declare }}</li><li>Design: <a :href="state.url.index">{{ state.Moe }}</a></li>				
 				</ul>
 			</footer>
 		</div>
@@ -161,13 +161,14 @@
             const state = Vue.reactive({
                 Moe:"MoeGit",
 								step:"A journey of a thousand miles begins with a single step",
-								update:"Sometimes forget to update",
-								null:"Not yet available",
-								info:"contact information",
-								myInfo:"This is my information",
-								now:"Loading Now",
-								email:"My Email：ycf@illyasviel.info",
-								qq:"My QQ：1073225787",
+								update:"如果忘记更新了,请提醒我",
+								null:"暂时没有想好",
+								info:"联系方法",
+								myInfo:"我的联系方法",
+								now:"正在更新中！",
+								email:"我的邮箱：ycf@illyasviel.info",
+								qq:"我的QQ：1073225787",
+								declare:"&copy; Night. All rights reserved.",
 								url:{
 									index:"https://github.com/ycfeng666/hsClass",
 									blog:"https://illyasviel.info",
