@@ -228,7 +228,7 @@
 1. 定义类User，两个私有字段姓名与性别
    1. 分别定义4个方法，分别实现两个私有字段的读取与赋值
    2. 用属性赋值并判断性别的有效性
-   
+      
       **[点击跳转至代码目录](https://github.com/ycfeng666/hsClass/tree/main/winform/class10/classWork/work1)**
 2. 定义类User，三个私有字段姓名、性别与年龄，分别定义三个属性，性别与年龄要判断有效性
    
@@ -254,6 +254,8 @@
    **[点击跳转至代码：Vue.JS版](https://github.com/ycfeng666/hsClass/blob/main/js/class1/vue.html)**
    
    **[点击跳转至代码：React.JS版](https://github.com/ycfeng666/hsClass/blob/main/js/class1/react.html)**
+
+<br/>
 
 ### 第一次实验
 
@@ -287,9 +289,41 @@
 
 **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class10/toupiao.html)**
 
+#### 实验目的
+
+1. 掌握函数的创建
+2. 掌握函数的调用
+3. 掌握常用系统使用
+
+#### 实验重难点
+
+1. 掌握函数的创建
+2. 掌握函数的调用
+
 #### 实验内容
 
-点击投票
+1. 实验简单的球队或其他投票效果
+
+<br/>
+
+### 第三次实验
+
+2021年11月5日
+
+#### 实验目的
+
+1. 掌握时间创建的几种方法
+2. 掌握几种常用事件
+3. 使用事件实现简单的JS效果
+
+#### 实验内容
+
+1. 分别使用Dom0与Dom2实验在表格鼠标移动到不同行背景色发生改变
+   
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class7/table.html)**
+2. 实验鼠标拖动方块的移动效果、
+   
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class7/bloc.html)**
 
 <br/>
 
@@ -298,23 +332,21 @@
 1. 当前时间与未来时间差
    
    **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class5/time.html)**
-2. 移动小方块
-   
-    **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class7/block.html)**
-3. 正则
+2. 正则
    
       **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class8/reg.html)**
-4. 点击与失焦
+3. 点击与失焦
    
       **[点击跳转至代码-点击](https://github.com/ycfeng666/hsClass/blob/main/js/class6/click.html)**
    
       **[点击跳转至代码-失焦](https://github.com/ycfeng666/hsClass/blob/main/js/class6/blur.html)**
-5. 双色球摇奖
+4. 双色球摇奖
    
       **[点击跳转至代码-未去重版](https://github.com/ycfeng666/hsClass/blob/main/js/class9/lucky.html)**
    
       **[点击跳转至代码-去重版](https://github.com/ycfeng666/hsClass/blob/main/js/class9/luckyNew.html)**
+5. 待定
 6. 待定
-7. 待定
+7. 广告位招租
 8. 广告位招租
 9. 衬衫的价格是？？

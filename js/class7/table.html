@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>移动变色</title>
+		<style>
+			#box{
+				width: 80%;
+				margin: 0 auto;
+				text-align: center;
+			}
+			table{
+				border: 0.0625rem solid blue;
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<table>
+				<thead>
+					<tr>
+						<th>姓名</th>
+						<th>年龄</th>
+						<th>号码</th>
+					</tr>
+				</thead>
+				<tbody id="body"></tbody>
+			</table>
+		</div>	
+	</body>
+	<script>
+		let body = document.getElementById("body"),
+		trs = document.getElementsByTagName("tr"),
+		data = [
+			{"name":"张三","age":20,"phone":"123456"},
+			{"name":"李四","age":25,"phone":"654321"}
+		],
+		str = '';
+		data.forEach((item)=> {
+      str += '<tr>';
+      for (const key in item) {
+        str += '<td>' + item[key] + '</td>';
+      }
+      str += '</tr>';
+    })
+		body.innerHTML = str;
+		for (let i = 1; i < trs.length; i++) {
+			// dom0方法
+			// trs[i].onmouseover = ()=>{
+			// 	trs[i].style.backgroundColor = "red";
+			// 	trs[i].style.color = "#FFF"
+			// }
+			// trs[i].onmouseout = ()=>{
+			// 	trs[i].style.backgroundColor = "#FFF";
+			// 	trs[i].style.color = "#000"
+			// }
+			// dom2方法
+			trs[i].addEventListener('mouseover',()=>{
+				trs[i].style.backgroundColor = "red";
+				trs[i].style.color = "#FFF"
+			})
+			trs[i].addEventListener('mouseout',()=>{
+				trs[i].style.backgroundColor = "#FFF";
+				trs[i].style.color = "#000"
+			})
+		}
+	</script>
+</html>
