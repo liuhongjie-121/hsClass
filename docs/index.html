@@ -1,187 +1,65 @@
-﻿<!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>	    
-	<title>MoeGit</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body class="landing">
-		<div id="page-wrapper">
-			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="/">{{ state.Moe }}</a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="/">Home</a></li>
-							<li><a :href="state.url.index" title="课程记录">HsClass</a>
-					    <li><a :href="state.url.cloud">MoeCloud</a></li>		
-						</ul>
-					</nav>
-				</header>
-			<!-- Banner -->
-			<section id="banner">
-				<div class="content">
-					<header>
-						<h2>{{ state.Moe }}</h2>
-						{{ state.step }}</p>
-					</header>
-					<span class="image"><img src="images/head_portrait.jpg"/></span>
-				</div>
-				<a href="#one" class="goto-next scrolly">Next</a>
-			</section>
-			<!-- One -->
-			<section id="one" class="spotlight style1 bottom">
-				<span class="image fit main"><img src="images/pic001.jpg"/></span>
-				<div class="content">
-					<div class="container">
-						<div class="row">
-							<div class="4u 12u$(medium)">
-								<header>
-									<h2>About {{ state.Moe }}</h2>
-									<p></p>
-								</header>
-							</div>
-							<div class="4u 12u$(medium)">
-								<p>Post
-								<br />{{ state.null }}
-								</p>
-							</div>
-							<div class="4u$ 12u$(medium)">
-								<p>Start
-									<br />{{ state.null }}
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<a href="#two" class="goto-next scrolly">Next</a>
-			</section>
-			<!-- Two -->
-			<section id="two" class="spotlight style2 right">
-				<span class="image fit main"><img src="images/pic002.jpg" alt="" /></span>
-				<div class="content">
-					<header>
-						<h2>{{ state.Moe }}</h2>
-						<p>{{ state.now }}</p>
-					</header>
-					<p>
-						{{ state.update }}
-					<ul class="actions">
-						<li><a :href="state.url.index" class="button">Go To</a></li>
-					</ul>
-				</div>
-				<a href="#three" class="goto-next scrolly">Next</a>
-			</section>
-			<!-- Three -->
-			<!-- <section id="three" class="spotlight style3 left">
-				<span class="image fit main bottom"><img src="images/pic003.jpg" alt="" /></span>
-				<div class="content">
-					<header>
-						<h2>萌源码</h2>
-						<p>一个最近才开始涉及的板块。</p>
-					</header>
-					<p>各种动漫网站源码的下载，弹幕网，个人引导页，导航网站，只要是动漫风的网页都很喜欢	</p>
-					<ul class="actions">
-						<li><a href="http://1-yi.cn/?cat=65" target="_blank" class="button">进入萌源码</a></li>
-					</ul>
-				</div>
-				<a href="#four" class="goto-next scrolly">Next</a>
-			</section> -->
-			<!-- Four -->
-			<!-- <section id="four" class="wrapper style1 special fade-up">
-				<div class="container">
-					<header class="major">
-						<h2>网站设计</h2>
-						<p>黑夜本人可以为大家收费做一些网站呢！</p>
-					</header>
-					<div class="box alt">
-						<div class="row uniform">
-							<section class="4u 6u(medium) 12u$(xsmall)">
-								<span class="icon alt major fa-area-chart"></span>
-								<h3>动漫视频网站</h3>
-								<p>在我的萌源码板块有几套视频模板，也是弹幕网的模板，在这里50/站，擦边球网站赚钱很快的。</p>
-							</section>
-							<section class="4u 6u$(medium) 12u$(xsmall)">
-								<span class="icon alt major fa-comment"></span>
-								<h3>网站仿站</h3>
-								<p>难度不是很大的站，其实都是可以仿的吧，先看我有没有能力仿，可以再交易，主要是看类型</p>
-							</section>
-							<section class="4u$ 6u(medium) 12u$(xsmall)">
-								<span class="icon alt major fa-flask"></span>
-								<h3>广告位出售</h3>
-								<p>权1小站，日pv1000，出售广告位，需要的联系萌站下边的QQ就可以了。首页40/月，文章页35/月，下载页30/月</p>
-							</section>															
-					</footer>
-				</div>
-			</section> -->
-			<!-- Five -->
-			<section id="five" class="wrapper style2 special fade">
-				<div class="container">
-					<header>
-						<h2>{{ state.info }}</h2>
-						<p>{{ state.email }}</p>
-					</header>
-				</div>
-				<p>{{ state.email }}</p>
-				<p>{{ state.myInfo }}</p>
-			</section>
-			<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<!--<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>-->				
-				</ul>
-				<ul class="copyright">
-					<li>{{ state.declare }}</li><li>Design: <a :href="state.url.index">{{ state.Moe }}</a></li>				
-				</ul>
-			</footer>
-		</div>
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/jquery.dropotron.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/skel.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script src="assets/js/main.js"></script>
-		<script src="https://lib.baomitu.com/vue/3.0.2/vue.global.js"></script>
-		<script>
-			const App = {
-        // 渲染
-        setup(){
-            const state = Vue.reactive({
-                Moe:"MoeGit",
-								step:"A journey of a thousand miles begins with a single step",
-								update:"如果忘记更新了,请提醒我",
-								null:"暂时没有想好",
-								info:"联系方法",
-								myInfo:"我的联系方法",
-								now:"正在更新中！",
-								email:"我的邮箱：ycf@illyasviel.info",
-								qq:"我的QQ：1073225787",
-								declare:"&copy; Night. All rights reserved.",
-								url:{
-									index:"https://github.com/ycfeng666/hsClass",
-									blog:"https://illyasviel.info",
-									cloud:"https://cloud.illyasviel.info",
-									img:"https://cloud.illyasviel.info"
-								}
-            })
-            return {
-                state
-            }
+<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>akyindex</title><style>.spinner {
+        position: absolute;
+        padding: 0px;
+        margin: 0px;
+        left: 0px;
+        top: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        text-align: center;
+        font-size: 10px;
+      }
+      .spinner > div {
+        margin-top: 540px;
+        background-color: #48d1cc;
+        height: 30px;
+        width: 6px;
+        display: inline-block;
+        -webkit-animation: stretchDelay 1.2s infinite ease-in-out;
+        animation: stretchDelay 1.2s infinite ease-in-out;
+      }
+
+      .spinner .rect2 {
+        -webkit-animation-delay: -1.1s;
+        animation-delay: -1.1s;
+      }
+
+      .spinner .rect3 {
+        -webkit-animation-delay: -1s;
+        animation-delay: -1s;
+      }
+
+      .spinner .rect4 {
+        -webkit-animation-delay: -0.9s;
+        animation-delay: -0.9s;
+      }
+
+      .spinner .rect5 {
+        -webkit-animation-delay: -0.8s;
+        animation-delay: -0.8s;
+      }
+      @-webkit-keyframes stretchDelay {
+        0%,
+        40%,
+        100% {
+          -webkit-transform: scaleY(0.4);
         }
-    }   
-    const app = Vue.createApp(App)
-    app.use().mount("#page-wrapper")
-		</script>
-	</body>
+        20% {
+          -webkit-transform: scaleY(1);
+        }
+      }
+
+      @keyframes stretchDelay {
+        0%,
+        40%,
+        100% {
+          transform: scaleY(0.4);
+          -webkit-transform: scaleY(0.4);
+        }
+        20% {
+          transform: scaleY(1);
+          -webkit-transform: scaleY(1);
+        }
+      }</style><link href="static/css/chunk-1920fd18.32ae2d9a.css" rel="prefetch"><link href="static/css/chunk-4da0f05f.d92bbe25.css" rel="prefetch"><link href="static/js/chunk-1920fd18.ff729098.js" rel="prefetch"><link href="static/js/chunk-2d0f0624.c75c72c6.js" rel="prefetch"><link href="static/js/chunk-2d217ca9.ede65a25.js" rel="prefetch"><link href="static/js/chunk-2d22d746.ce3c95cb.js" rel="prefetch"><link href="static/js/chunk-4da0f05f.23815285.js" rel="prefetch"><link href="static/css/app.d4972f2d.css" rel="preload" as="style"><link href="static/css/chunk-vendors.af9ef0ae.css" rel="preload" as="style"><link href="static/js/app.b4dd502c.js" rel="preload" as="script"><link href="static/js/chunk-vendors.691320d7.js" rel="preload" as="script"><link href="static/css/chunk-vendors.af9ef0ae.css" rel="stylesheet"><link href="static/css/app.d4972f2d.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but akyindex doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"><div class="spinner"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div></div><script src="static/js/chunk-vendors.691320d7.js"></script><script src="static/js/app.b4dd502c.js"></script></body></html>
