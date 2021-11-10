@@ -14,7 +14,7 @@ namespace work1
             Console.Write("请输入姓名:");
             u1.SetName(Console.ReadLine());
             Console.Write("请输入性别:");
-            u1.SetName(Console.ReadLine());
+            u1.SetSex(Console.ReadLine());
             Console.WriteLine("姓名是:"+u1.GetName());           
             string sex = u1.GetSex();
             if (string.IsNullOrEmpty(sex)) Console.WriteLine("您输入的性别可能不规范");

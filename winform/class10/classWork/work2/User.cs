@@ -8,7 +8,6 @@ namespace work2
 {
     class User
     {
-        private string m_Name;
         private string m_Sex;
         private int m_Age;
 
