@@ -9,6 +9,8 @@
 *.txt
 *.suo
 *.config
+*.Designer.cs
+*.resx
 
 # 忽略通配符目录
 *.vs*/
