@@ -239,6 +239,41 @@
 
 <br/>
 
+### 第七次实验
+
+2021年11月11日
+
+#### 实验目的
+
+1. 学习Gui程序设计的基本方法
+2. 掌握图形界面的使用基础
+3. 掌握标签、按钮、文本框、单选、复选框等基本空间的使用方法
+
+#### 实验原理
+
+Gui程序设计的基本方法包含以下四个方面：
+
+1. 建立Windows窗体应用程序
+2. 在项目中定义一个或多个窗体
+3. 使用工具箱设计窗体页面
+4. 为窗体与空间添加事件处理程序
+
+#### 实验内容
+
+1. 设计一个注册程序，界面包含：姓名、密码、性别、出生年月、爱好、注册与重置两个按钮。单击注册弹窗成功消息框，单机重置以上输出的内容清空
+   
+   **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/winform/class11/classWork/submitForm/regisiterForm.cs)**
+2. 创建一个窗体应用程序模拟电击游戏机，单机开始屏幕的3个数字跳动显示1-9，单机停止屏幕出现3个8就是大奖
+   
+   **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/winform/class11/classWork/submitForm/luckyForm.cs)**
+3. 设计一个登陆窗体，输入用户名与密码后调整到英雄血条主窗体
+   
+   **[点击跳转至代码-登陆](https://github.com/ycfeng666/hsClass/blob/main/winform/class11/classWork/submitForm/heroLoginForm.cs)**
+   
+   **[点击跳转至代码-主窗体](https://github.com/ycfeng666/hsClass/blob/main/winform/class11/classWork/submitForm/heroIndexForm.cs)**
+
+<br/>
+
 ## JS
 
 ### 第一次理论作业
