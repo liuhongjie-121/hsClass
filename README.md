@@ -362,11 +362,34 @@ Gui程序设计的基本方法包含以下四个方面：
 
 <br/>
 
+### 第四次实验
+
+2021年11月12日
+
+#### 实验目的
+
+1. 理解面相对象编程
+2. 实验JS实现小游戏
+3. 掌握画布中的常用方法
+
+#### 实验重难点
+
+1. 掌握JS选择器封装
+2. 掌握画布中的常用方法
+
+#### 实验内容
+
+1. 实验数组及画布实现刮刮乐
+   
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class11/lucky.html)**
+
+<br/>
+
 ### 未整理
 
 1. 当前时间与未来时间差
    
-   **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class5/time.html)**
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class5/time.html)**
 2. 正则
    
       **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/js/class8/reg.html)**

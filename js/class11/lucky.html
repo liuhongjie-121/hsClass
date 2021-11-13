@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>刮刮乐</title>
+		<style>
+			#box {
+				width: 18.75rem;
+				height: 6.25rem;
+				color: #FF0000;
+				z-index: -1;
+				position: absolute;
+				top: 3.125rem;
+				left: 8.4375rem;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="lucky" width="300px" height="100px"></canvas>
+		<div id="box"></div>
+	</body>
+	<script>
+		const getEle = (id)=>{
+			return document.getElementById(id);
+		}
+		let lucky = getEle("lucky"),
+		box = getEle("box"),
+		down = false,
+		luckyList = ["苹果13 Max Pro","现金5000","没中奖"],
+		draw = lucky.getContext("2d");
+		
+		LuckStart();
+		
+		function LuckStart(){
+			let raNum = Math.floor(Math.random()*99+1);			
+			isClick = 0;
+			if(raNum>=98) box.textContent = luckyList[0];
+			else if(raNum>=90 & raNum<98) box.textContent = luckyList[1];
+			else box.textContent = luckyList[2];
+			
+			draw.fillStyle="#0000FF";
+			draw.strokeStyle="red";
+			draw.lineWidth=3;
+			draw.fillStyle="#CCCCCC";
+			draw.rect(0,0,300,100);
+			draw.fill();
+			lucky.addEventListener('mousedown',()=>{
+				if(!down) down = true;
+				lucky.addEventListener('mousemove',(e)=>{
+					if(down) draw.clearRect(e.clientX,e.clientY,10,10);
+					lucky.addEventListener('mouseup',()=>{
+						if(down) down = false;			
+					})
+				})
+			})
+		}		
+	</script>
+</html>
