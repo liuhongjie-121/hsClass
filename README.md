@@ -408,3 +408,67 @@ Gui程序设计的基本方法包含以下四个方面：
 7. 广告位招租
 8. 广告位招租
 9. 衬衫的价格是？？
+
+<br/>
+
+## Java Web
+
+### 第一次实验
+
+2021年11月10日
+
+#### 实验目的
+
+1. 熟悉JSP环境，掌握安装与配置JSP开发环境
+2. 熟悉Jave Web 页面设计开发流程
+3. 了解 MyEclipse 中设计简单 Java Web 页面方法
+
+#### 实验环境
+
+JDK，Eclipse，Tomcat
+
+#### 实验内容
+
+1. 结合课程内容，完成环境的下载安装使用，检查系统是否安装了环境并查看版本，在使用结果中用截图与文字写出查看结果
+2. 创建一个静态网页，在游览器显示"Hello World"
+   
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/java/class1/WebRoot/index.jsp)**
+3. 编写一个JSP程序实现手表的功能，显示当前日期及时间（年-月-日，时：分：秒），并实时自动刷新时间
+   
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/java/class1/WebRoot/Time.jsp)**
+4. 编写一个Java类和一个JSP页面，把下列信息封装到3个Student对象里，再把每一个对象放到一个ArrayList对象里，再利用ArrayList对象在JSP页面的表格中显示所示的信息，如下图所示。
+   
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/java/class1/WebRoot/Table.jsp)**
+   |学号|姓名|性别|班级|成绩|
+   |--|--|--|--|--|
+   |001|李白|男|01|723.0|
+   |002|孟浩然|男|02|689.0|
+   |003|杨玉环|女|03|600.0|
+5. 编写一个JSP程序，使用JSP Script显示网页上如下颜色的颜色条：绿色、蓝绿色、黑色、红色、黄色以及粉红色（对应的颜色为：Green、Cyan、Blank、Red、Yellow、Pink）。
+   
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/java/class1/WebRoot/Color.jsp)**
+
+<br/>
+
+### 第二次实验
+
+2021年11月15日
+
+#### 实验目的
+
+1. 进一步掌握JSP脚本元素
+2. 进一步掌握JSP指令
+
+#### 实验环境
+
+JDK，Eclipse，Tomcat
+
+#### 实验内容
+
+1. 编写两个文档，一个是JSP文档，另一个是普通的HTML文档，要求在HTML文档中插入图片，并将HTML文档嵌入JSP文档中
+2. 编写一个JSP页面，实现根据一个人的18位身份证显示出生日的功能来，要求把表达式声明和Scriptlet全部用到，并把结果显示在表格中，如下表所示
+   |身份证|生日|
+   |--|--|
+   |010020199601026929|1996-01-02|
+   |010020199711126928|1997-11-12|
+3. 编写一个JSP页面，利用Scriptlet编写一段计算代码，要求用0做除数，并使用page指令将该错误信息显示在另一个JSP页面上，产生的错误信息为“错误，不能用0做除数！”
