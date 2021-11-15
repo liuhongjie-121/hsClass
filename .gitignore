@@ -11,6 +11,16 @@
 *.config
 *.Designer.cs
 *.resx
+*.MF
+*.xml
+*.jar
+*.iml
+*.project
+*.mymetadata
+*.classpath
+*.bak
+*.class
+*.WeDrive
 
 # 忽略通配符目录
 *.vs*/
@@ -18,3 +28,11 @@
 *obj*/
 *Properties*/
 *.vscode*/
+*.idea*/
+*.myeclipse*/
+*.settings*/
+*.metadata*/
+
+# 排除目录
+java/Servers/
+
