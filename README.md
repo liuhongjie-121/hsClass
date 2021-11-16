@@ -439,6 +439,8 @@ JDK，Eclipse，Tomcat
 4. 编写一个Java类和一个JSP页面，把下列信息封装到3个Student对象里，再把每一个对象放到一个ArrayList对象里，再利用ArrayList对象在JSP页面的表格中显示所示的信息，如下图所示。
    
       **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/java/class1/WebRoot/Table.jsp)**
+   
+      **[点击跳转至代码-引用类](https://github.com/ycfeng666/hsClass/blob/main/java/class1/src/com/Info/Student.java)**
    |学号|姓名|性别|班级|成绩|
    |--|--|--|--|--|
    |001|李白|男|01|723.0|
@@ -466,9 +468,21 @@ JDK，Eclipse，Tomcat
 #### 实验内容
 
 1. 编写两个文档，一个是JSP文档，另一个是普通的HTML文档，要求在HTML文档中插入图片，并将HTML文档嵌入JSP文档中
+   
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/java/class2/workstation/WebRoot/index.jsp)**
+   
+      **[点击跳转至代码-HTML](https://github.com/ycfeng666/hsClass/blob/main/java/class2/workstation/WebRoot/web/one.html)**
 2. 编写一个JSP页面，实现根据一个人的18位身份证显示出生日的功能来，要求把表达式声明和Scriptlet全部用到，并把结果显示在表格中，如下表所示
+   
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/java/class2/workstation/WebRoot/num.jsp)**
+   
+      **[点击跳转至代码-引用类](https://github.com/ycfeng666/hsClass/blob/main/java/class2/workstation/src/com/info/string.java)**
    |身份证|生日|
    |--|--|
    |010020199601026929|1996-01-02|
    |010020199711126928|1997-11-12|
 3. 编写一个JSP页面，利用Scriptlet编写一段计算代码，要求用0做除数，并使用page指令将该错误信息显示在另一个JSP页面上，产生的错误信息为“错误，不能用0做除数！”
+   
+      **[点击跳转至代码-页面](https://github.com/ycfeng666/hsClass/blob/main/java/class2/workstation/WebRoot/Count.jsp)**
+   
+      **[点击跳转至代码-错误页](https://github.com/ycfeng666/hsClass/blob/main/java/class2/workstation/WebRoot/Error.jsp)**

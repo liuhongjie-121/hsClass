@@ -16,7 +16,7 @@ namespace submitForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new regisiterForm());
+            Application.Run(new heroIndexForm());
         }
     }
 }
