@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>抽奖</title>
+		<style>
+			#start {
+				background-color: blue;
+				color: white;
+				width: 6.25rem;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>抽奖总人数</td>
+				<td><input type="text" id="all"></td>
+			</tr>
+			<tr>
+				<td>排除范围</td>
+				<td><input type="text" id="exclude" placeholder="请用逗号分隔"></td>
+			</tr>
+			<tr>
+				<td>拟中奖人数</td>
+				<td><input type="text" id="num"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button id="start">开始</button></td>
+			</tr>
+			<tr><td colspan="2" id="result"></td></tr>
+		</table>
+	</body>
+	<script>
+		const getFun =(id) =>{ return document.getElementById(id);}
+		let all = getFun("all"),
+		exclude = getFun("exclude"),
+		num = getFun("num"),
+		start = getFun("start"),
+		result = getFun("result");
+		
+		// 初始数组，去重
+		start.addEventListener('click',()=>{
+			let allList = [];
+			for (let i = 0; i < parseInt(all.value); i++) {
+				allList[i] = Math.floor(Math.random()*9+1);
+				if(i>0){
+					for (let j = 0; j < i; j++) {
+						if(allList[j] === allList[i]){
+							i--;break;
+						}
+					}
+				}
+			}
+			let newAllList = [];
+			// 排除数组转整数
+			let exList = exclude.value.split(',');
+			exList = exList.map(item => {return +item});
+			// 根据排除数组转新数组
+			allList.forEach(data =>{
+				if(!exList.includes(data)) newAllList.push(data);
+			})
+			//从新数组内取值
+			let resultList = []
+			if(parseInt(num.value)<parseInt(all.value)){
+				for (let k = 0; k < parseInt(num.value); k++) {
+					resultList[k] = newAllList[k];
+				}
+			}
+			result.textContent = "中奖结果为" + resultList.sort((a,b)=>{ return a-b }).toString();
+		})
+		
+	</script>
+</html>
