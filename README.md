@@ -289,9 +289,15 @@ Gui程序设计的基本方法包含以下四个方面：
 
 1. 设计如下图的菜单
    
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/winform/class12/classWrok/work1/Form1.cs)**
+   
    ![2021/11/18/f44d81118090949.png](https://i.iluoli.moe/2021/11/18/f44d81118090949.png)
 2. 设计应用程序，在文本框中输入圆的半径，然后判断输入的半径是否合理，若输入的半径大于0，则计算圆的面积并使用消息框输出，若输入的半径小于或者等于0，则使用消息框询问是否重新输入，如果选择“是”，则清空文本框，等待重新输入，否则不做任何处理
+   
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/winform/class12/classWork/work2/Form1.cs)**
 3. 用listView控件显示：学号、姓名、成绩，添加男生和女生两组，每组各添加2行信息
+   
+      **[点击跳转至代码](https://github.com/ycfeng666/hsClass/blob/main/winform/class12/classWork/work3/Form1.cs)**
 
 #### 实验指导
 
