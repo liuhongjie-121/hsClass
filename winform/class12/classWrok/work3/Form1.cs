@@ -35,8 +35,8 @@ namespace work3
             // 已解决
             // 调试与监视均没有发现问题
             ListView lv = lvStu;
-            lv.Clear();
             lv.Items.Clear();
+            lv.Clear();
             lv.ShowGroups = true;
             ListViewGroup menGroup = new ListViewGroup();
             menGroup.Header = "男生";
