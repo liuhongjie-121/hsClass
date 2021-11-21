@@ -9,9 +9,10 @@ namespace work3
         {
             InitializeComponent();
         }
-        public void setTable() {
+        public void SetTable() {
             ListView lv = lvStu;
             lv.Clear();
+            lv.Groups.Clear();
             lv.ShowGroups = false;
             lv.View = View.Details;
             string[,] arrList = { { "001", "张三", "99" }, { "002", "李四", "59" } };
@@ -31,39 +32,42 @@ namespace work3
             }
             lv.EndUpdate();
         }
-        public void setGroup() {
+        public void SetGroup() {
             // 这里有Bug，暂未解决，分组正常显示，但是内容无法显示
             // 调试与监视均没有发现问题
             ListView lv = lvStu;
-            lv.Clear();
             lv.ShowGroups = true;
-            ListViewGroup menGroup = new ListViewGroup();
-            menGroup.Header = "男生";
-            ListViewGroup woMenGroup = new ListViewGroup();
-            woMenGroup.Header = "女生";
+            ListViewGroup menGroup = new ListViewGroup
+            {
+                Header = "男生"
+            };
+            ListViewGroup woMenGroup = new ListViewGroup
+            {
+                Header = "女生"
+            };
             lv.Groups.Add(menGroup);
             lv.Groups.Add(woMenGroup);
             string[] arrList = { "喜羊羊", "灰太狼", "美羊羊", "红太狼" };
-            foreach (var item in arrList) lv.Items.Add(item);
-            for (int i = 0; i < lv.Items.Count; i++)
+            for (int i = 0; i < arrList.Length; i++)
             {
+                lv.Items.Add(arrList[i]);
                 if (i < 2) lv.Items[i].Group = lv.Groups[0];
                 else lv.Items[i].Group = lv.Groups[1];
             }
         }
         private void FormList_Load(object sender, EventArgs e)
         {
-            setTable();
+            SetTable();
         }
 
         private void btnGroup_Click(object sender, EventArgs e)
         {
-            setGroup();
+            SetGroup();
         }
 
         private void btnTable_Click(object sender, EventArgs e)
         {
-            setTable();
+            SetTable();
         }
     }
 }
