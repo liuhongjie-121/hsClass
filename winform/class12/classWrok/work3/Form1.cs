@@ -36,6 +36,8 @@ namespace work3
             // 这里有Bug，暂未解决，分组正常显示，但是内容无法显示
             // 调试与监视均没有发现问题
             ListView lv = lvStu;
+            lv.Items.Clear();
+            lv.Clear();
             lv.ShowGroups = true;
             ListViewGroup menGroup = new ListViewGroup
             {
