@@ -32,10 +32,11 @@ namespace work3
             lv.EndUpdate();
         }
         public void setGroup() {
-            // 这里有Bug，暂未解决，分组正常显示，但是内容无法显示
+            // 已解决
             // 调试与监视均没有发现问题
             ListView lv = lvStu;
             lv.Clear();
+            lv.Items.Clear();
             lv.ShowGroups = true;
             ListViewGroup menGroup = new ListViewGroup();
             menGroup.Header = "男生";
